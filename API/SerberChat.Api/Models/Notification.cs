@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SerberChat.Api.Models
 {
-	public class Notification
+    public class Notification
 	{
 		[Key]
 		[Required]

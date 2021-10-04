@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\React-Challenge\\API\\SerberChat.Api\\SerberChat.Api.csproj": {}
+    "C:\\Git\\SerBerChat\\API\\SerberChat.Api\\SerberChat.Api.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\React-Challenge\\API\\SerberChat.Api\\SerberChat.Api.csproj": {
+    "C:\\Git\\SerBerChat\\API\\SerberChat.Api\\SerberChat.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\React-Challenge\\API\\SerberChat.Api\\SerberChat.Api.csproj",
+        "projectUniqueName": "C:\\Git\\SerBerChat\\API\\SerberChat.Api\\SerberChat.Api.csproj",
         "projectName": "SerberChat.Api",
-        "projectPath": "C:\\GIT\\React-Challenge\\API\\SerberChat.Api\\SerberChat.Api.csproj",
-        "packagesPath": "C:\\Users\\PSF 31\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\React-Challenge\\API\\SerberChat.Api\\obj\\",
+        "projectPath": "C:\\Git\\SerBerChat\\API\\SerberChat.Api\\SerberChat.Api.csproj",
+        "packagesPath": "C:\\Users\\sergi\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\SerBerChat\\API\\SerberChat.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PSF 31\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sergi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -46,15 +42,31 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.2.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -75,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
